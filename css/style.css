@@ -5,9 +5,11 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-  background-color: rgb(164, 250, 246);
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #a4faf6;
   background-image: url(/images/background.avif);
+  background-position: center;
   background-size: cover;
 }
 
@@ -30,15 +32,15 @@ li a {
 
 #page-logo a {
   font-family: 'Oleo Script', sans-serif;
-  color: rgb(245, 243, 160);
+  color: #f5f3a0;
   font-size: 50px;
   text-decoration: none;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px #000000;
 }
 
 #page-logo i {
-  color: rgb(255, 0, 115);
+  color: #ff0073;
   transform: rotate(26deg);
   -webkit-transform: rotate(26deg);
   -moz-transform: rotate(26deg);
@@ -47,11 +49,64 @@ li a {
 }
 
 #page-logo i:last-of-type {
-  color: rgb(255, 0, 115);
+  color: #ff0073;
   translate: -15px 5px;
   transform: rotate(-12deg);
   -webkit-transform: rotate(-12deg);
   -moz-transform: rotate(-12deg);
   -ms-transform: rotate(-12deg);
   -o-transform: rotate(-12deg);
+}
+
+#hero-content {
+  background-color: #12132890;
+  box-shadow: 2px 4px 8px #332e49;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  position: relative;
+  top: 200px;
+  color: #ffffff;
+}
+
+#hero-content h1 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#hero-content a {
+  background-color: #ff0073;
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 20px;
+  border: 3px solid transparent;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 2px 2px 8px #332e49;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+
+#hero-content a:hover {
+  background-color: #ffffff;
+  border: 3px solid #ff0073;
+  color: #ff0073;
 }
