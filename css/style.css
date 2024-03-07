@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(164, 250, 246);
+  background-image: url(/images/background.avif);
+  background-size: cover;
+}
+
+header {
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+#page-logo a {
+  font-family: 'Oleo Script', sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#page-logo i {
+  color: rgb(255, 0, 115);
+  transform: rotate(26deg);
+  -webkit-transform: rotate(26deg);
+  -moz-transform: rotate(26deg);
+  -ms-transform: rotate(26deg);
+  -o-transform: rotate(26deg);
+}
+
+#page-logo i:last-of-type {
+  color: rgb(255, 0, 115);
+  translate: -15px 5px;
+  transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+}
