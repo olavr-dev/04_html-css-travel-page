@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 250ms ease-out;
+  -webkit-transition: all 250ms ease-out;
+  -moz-transition: all 250ms ease-out;
+  -ms-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
+}
+
+header {
+  padding: 10px 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #332e49;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+  text-shadow: 1px 1px 2px #332e49;
+  border-bottom: 3px solid #ffffff;
+  color: #ff0073;
+}
+
+main {
+  height: 100vh;
+}
+
+footer ul {
+  background: linear-gradient(180deg, #333333, #111111);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 25px;
+}
+
+footer i {
+  font-size: 60px;
+  color: #f7f7f7;
+}
+
+footer i:hover {
+  color: #ff0073;
+}
+
+#page-logo a {
+  font-family: 'Oleo Script', sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+#page-logo i {
+  color: #ff0073;
+  transform: rotate(26deg);
+  -webkit-transform: rotate(26deg);
+  -moz-transform: rotate(26deg);
+  -ms-transform: rotate(26deg);
+  -o-transform: rotate(26deg);
+}
+
+#page-logo i:last-of-type {
+  color: #ff0073;
+  translate: -15px 5px;
+  transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+}
