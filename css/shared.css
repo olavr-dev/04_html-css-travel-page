@@ -16,6 +16,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: absolute;
+  top: 0;
 }
 
 nav ul {
@@ -38,12 +39,8 @@ nav a:hover {
   color: #ff0073;
 }
 
-main {
-  height: 100vh;
-}
-
 footer ul {
-  background: linear-gradient(180deg, #333333, #111111);
+  background: linear-gradient(180deg, #303030, #111111);
   list-style: none;
   display: flex;
   justify-content: center;
