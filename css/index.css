@@ -14,7 +14,7 @@ main {
   font-family: 'Raleway', sans-serif;
   background-color: #12132890;
   box-shadow: 2px 4px 8px #4a4a4a95;
-  width: 55vw;
+  width: 1300px;
   margin: 25vh auto 0 auto;
   padding: 50px;
   text-align: center;
@@ -80,7 +80,7 @@ main {
   justify-content: space-around;
   list-style: none;
   flex-wrap: wrap;
-  width: 100%;
+  width: 1300px;
   gap: 20px;
 }
 
