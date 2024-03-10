@@ -1,4 +1,79 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #111111;
+  background: linear-gradient(30deg, #777777, #585858);
+  color: #686868;
+}
+
+header {
+  position: static;
+}
+
+main ul {
+  width: 800px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+main li {
+  display: flex;
+  background-color: #f7f7f7;
+  box-shadow: 1px 1px 4px #00000020;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  overflow: hidden;
+}
+
+main li img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.item-content {
+  padding: 24px;
+  position: relative;
+}
+
+.item-content h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.item-content p {
+  margin: 20px 0;
+}
+
+.actions {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #ff0073;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.actions a:hover {
+  color: #ffffff;
+  background-color: #ff0073;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
